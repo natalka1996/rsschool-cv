@@ -1,6 +1,32 @@
 body {
+    padding: 100px 0;
     background: url(https://www.creativefabrica.com/wp-content/uploads/2022/03/14/White-Paper-Texture-Background-Graphics-27154875-1-580x387.jpg);
 }
-.info{
-    color: #000;
+.wraper {
+    width: 800px;
+    min-height: 800px;
+    border: 2px solid grey;
+    margin: 0 auto;
 }
+.header {
+    display: flex;
+    height: 200px;
+}
+.title-block {
+    font-size: 20px;
+    display: flex;
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    padding: 0 81px;
+}
+
+.userpik {
+    display: flex;
+    width: 40%;
+    border-radius: 10px;
+    background:url(./);
+}
+    
+   

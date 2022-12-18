@@ -1,0 +1,189 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap'); 
+body {
+
+    padding: 100px 0;
+    background: url(https://www.creativefabrica.com/wp-content/uploads/2022/03/14/White-Paper-Texture-Background-Graphics-27154875-1-580x387.jpg);
+}
+.wraper {
+    width: 1000px;
+    margin: 0 auto;
+    border: 5px solid rgb(246, 242, 246);
+    box-shadow: rgb(148, 150, 5)
+}
+.header {
+    display: flex;
+    height: 200px;
+}
+.title-main{
+    font-size: 20px;
+    font-weight: 900;
+}
+.title-block {
+    font-size: 20px;
+    display: flex;
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    padding: 0 160px;
+    margin-right: 20px;
+}
+.profile-foto{
+    width: 300px;
+    height: 270px;
+    border-radius: 100px;
+}
+.userpik {
+    display: flex;
+    width: 40%;
+    border-radius: 10px;
+   
+}
+
+.nav ul {
+    display: flex;
+    background: cadetblue;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  
+  .nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(246, 242, 246);
+    font-weight: bold;
+    border-right: 1px solid rgb(212, 202, 202);
+    transition: .3s ease;
+    border-radius: 30px;
+    margin-right: 30px;
+ 
+     
+ }
+  .nav li{
+    list-style-type: none;
+  }
+  .nav li a:hover {
+    background-color: rgb(141, 228, 231);
+  }
+  .main{
+    margin-top: 20px;
+    display: flex;
+  }
+  .title-main{
+    font-size: 40px;
+  }
+  
+.content{
+    font-size: 30px;
+   padding:  0 20px;
+    height: 100%;
+   width: 50%;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 89px;
+    height: 164px;
+    width: 46%;
+    text-align: center;
+    background-color: cadetblue;
+}
+.info a{
+    font-size: 25px;
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+.info h2{
+    font-size: 35px;
+}
+.skills{
+display: flex;
+    margin-top: 20px;
+    padding: 0px;
+}
+.languages{
+    padding-left: 20px;
+    font-size: 40px;
+    width: 20%;
+}
+.skills ul{
+    padding: 0;
+}
+.language-name{
+    font-size: 30px;
+
+}
+.languare-name{
+    font-size: 30px;
+}
+.skills li{
+    list-style-type: none;
+}
+.contact{
+    margin-top: 52px;
+    height: 100%;
+    width: 63%;
+    text-align: center;
+    background-color: cadetblue;
+    font-size: 30px;
+    transition: transform.3s ease;
+}
+.contact h3{
+    margin-top: 0px;
+}
+
+.contact li{
+    list-style-type: none;
+}
+.nav-item a{
+    text-decoration: none;
+  
+    font-size: 25px;
+    color: antiquewhite;
+   
+}
+.conteiner{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.code{
+    font-size: 40px;
+}
+
+
+  
+.footer{
+    display: flex;
+    background-color: cadetblue;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.footer__nav__list{
+    display: flex;
+    padding-right: 40px;
+    margin-right: 30px;
+    color: aliceblue;
+}
+.footer li{
+    list-style-type: none;
+    display: flex;
+    margin-right: 80px;
+}
+.footer a{
+    
+    text-decoration: none;
+  color: antiquewhite;
+  margin: 5px;
+}
+   .footer ul {
+    display: flex;
+    margin: 10px 0;
+   }
+   .year{
+    padding: 5px;
+    color: antiquewhite
+   }

@@ -1,6 +1,7 @@
 .body{
     background: aqua;
+width: 100%;
 }
-.H1{
-    color: blueviolet;
+.info{
+    color: aquamarine;
 }
